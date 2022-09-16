@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(aliceblue,rosybrown);
+}
+h1 {
+    color: royalblue;
+    margin: 0px;
+    border: 5px solid violet;
+}
+
+#one {
+    border: 5px solid indigo;
+}
+
+#two {
+    border: 5px solid blue;
+}
+
+#three {
+    border: 5px solid green;
+}
+
+#four {
+    border: 5px solid yellow;
+}
+
+#five {
+    border: 5px solid orange;
+}
+
+#six {
+    border: 5px solid red;
+}
+
+h2 {
+    background-color: azure;
+    text-decoration:underline;
+    border: 15px ridge beige;
+}
+
+.bold {
+    background-color: red;
+    color: white;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 5px 5px 2px black;
+    margin: 100px 0px;
+    padding: 5px 10px;
+}
+
+.list {
+    color: wheat;
+    text-shadow: 2px 2px 2px black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.image {
+    display: block;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/640px-The_Blue_Marble_%28remastered%29.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: 5px solid green;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.image:hover {
+    background-image: url("https://e0.365dm.com/16/07/2048x1152/ricciardo_festa_germania_getty_3755484.jpg");
+    background-size: cover;
+    width: 400px;
+}
+
+h4 {
+    text-align: center;
+}
+.login {
+    display: flex;
+    width: 350px;
+    margin: 20px 0px;
+    justify-content:space-between;
+}
+
+input {
+    background: greenyellow;
+    border: 3px solid black;
+}
+
+button {
+    display: block;
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background: darkred;
+    color: white;
+}
